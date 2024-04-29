@@ -1,0 +1,85 @@
+
+.continer{
+
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+h1{
+    margin-left: 12px;
+    font-size: 24px bold;
+}
+ul {
+display: flex;
+gap: 80px;  
+justify-content: center;
+align-items: center;
+
+
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+text-decoration: none;
+color: black;
+font-size: 19px;
+
+}
+.nav{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.nav2{
+  margin-right: 12px;
+}
+#heart{
+  
+    font-size: 20px;
+  
+    color: red;
+}
+#shoping{
+  
+    font-size: 20px;
+    
+    color: black;
+}
+#search{
+   
+    font-size: 20px;
+   
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+    }
+
+    h1 {
+        margin-left: 0; /* Remove left margin */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+        text-align: center; /* Center align the heading */
+    }
+
+    ul {
+        justify-content: space-around; /* Adjust alignment for smaller screens */
+    }
+
+    #heart, #shoping, #search {
+        position: relative; /* Reset position */
+        left: auto; /* Reset left position */
+        top: auto; /* Reset top position */
+        margin-top: 10px; /* Add margin for spacing */
+        font-size: 16px; /* Adjust font size */
+    }
+}
