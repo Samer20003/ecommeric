@@ -1,0 +1,21 @@
+.SideBar{
+    box-sizing: border-box;
+    width: 83%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.SideBarMenu {
+    list-style-type: none;
+;
+}
+ol{
+    display:grid;
+    gap: 22px;
+}
+li a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+ 
+} 
